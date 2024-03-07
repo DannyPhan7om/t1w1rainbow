@@ -4,38 +4,32 @@ body{
     display: flex;
 }
 
+div {
+    position: absolute;
+    box-sizing: border-box;
+}
+
 #one {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    border-color: red;
     background-color: orange;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 25px;
-    position: absolute;
+    border: 25px solid red;
 }
 
 .two {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border-color: yellow;
     background-color: green;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 25px;
-    position: absolute;
+    border: 25px solid yellow;
 }
 
 .three {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border-color:blue ;
     background-color:purple ;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 25px;
-    position: absolute;
+    border: 25px solid royalblue;
 }
+
